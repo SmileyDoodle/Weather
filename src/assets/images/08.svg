@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1362 1341" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-7646.81,-5061.81)">
+        <g id="_08" serif:id="08" transform="matrix(1,0,0,1,1955.16,4986.49)">
+            <rect x="5691.65" y="75.323" width="1361.45" height="1340.51" style="fill:none;"/>
+            <g transform="matrix(2.14818,0,0,2.14818,3534.87,-916.138)">
+                <path d="M1501.06,681.212C1501.06,632.044 1461.14,592.127 1411.98,592.127L1233.81,592.127C1184.64,592.127 1144.72,632.044 1144.72,681.212L1144.72,859.383C1144.72,908.551 1184.64,948.469 1233.81,948.469L1411.98,948.469C1461.14,948.469 1501.06,908.551 1501.06,859.383L1501.06,681.212Z" style="fill:none;"/>
+                <clipPath id="_clip1">
+                    <path d="M1501.06,681.212C1501.06,632.044 1461.14,592.127 1411.98,592.127L1233.81,592.127C1184.64,592.127 1144.72,632.044 1144.72,681.212L1144.72,859.383C1144.72,908.551 1184.64,948.469 1233.81,948.469L1411.98,948.469C1461.14,948.469 1501.06,908.551 1501.06,859.383L1501.06,681.212Z"/>
+                </clipPath>
+                <g clip-path="url(#_clip1)">
+                    <g transform="matrix(0.670923,0.695797,-0.709518,0.684153,2953.75,-1892.06)">
+                        <path d="M534.342,3142.43C533.802,3142.11 816.44,2851.99 866.224,2802.21" style="fill:none;stroke:rgb(217,217,217);stroke-width:15.26px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:42.92,43.87,0,0;stroke-dashoffset:124.94;"/>
+                    </g>
+                    <g transform="matrix(0.670923,0.695797,-0.709518,0.684153,2970.89,-1841.98)">
+                        <path d="M534.342,3142.43C533.802,3142.11 816.44,2851.99 866.224,2802.21" style="fill:none;stroke:rgb(217,217,217);stroke-width:15.26px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:117.31,43.87,0,0;stroke-dashoffset:124.94;"/>
+                    </g>
+                    <g transform="matrix(0.670923,0.695797,-0.709518,0.684153,2946.65,-1795.86)">
+                        <path d="M534.342,3142.43C533.802,3142.11 816.44,2851.99 866.224,2802.21" style="fill:none;stroke:rgb(217,217,217);stroke-width:15.26px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:42.92,43.87,0,0;stroke-dashoffset:124.94;"/>
+                    </g>
+                    <g transform="matrix(0.670923,0.695797,-0.709518,0.684153,2942.82,-1701.41)">
+                        <path d="M534.342,3142.43C533.802,3142.11 816.44,2851.99 866.224,2802.21" style="fill:none;stroke:rgb(217,217,217);stroke-width:15.26px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:42.92,43.87,0,0;stroke-dashoffset:124.94;"/>
+                    </g>
+                    <g transform="matrix(0.670923,0.695797,-0.709518,0.684153,2973.42,-1650.43)">
+                        <path d="M534.342,3142.43C533.802,3142.11 816.44,2851.99 866.224,2802.21" style="fill:none;stroke:rgb(217,217,217);stroke-width:15.26px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:116.36,43.87,0,0;stroke-dashoffset:124.94;"/>
+                    </g>
+                    <g transform="matrix(0.670923,0.695797,-0.709518,0.684153,2944.2,-1601.7)">
+                        <path d="M534.342,3142.43C533.802,3142.11 816.44,2851.99 866.224,2802.21" style="fill:none;stroke:rgb(217,217,217);stroke-width:15.26px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:42.92,43.87,0,0;stroke-dashoffset:124.94;"/>
+                    </g>
+                    <g transform="matrix(0.670923,0.695797,-0.709518,0.684153,2975.63,-1750.03)">
+                        <path d="M534.342,3142.43C533.802,3142.11 816.44,2851.99 866.224,2802.21" style="fill:none;stroke:rgb(217,217,217);stroke-width:15.26px;stroke-linecap:round;stroke-miterlimit:1.5;stroke-dasharray:116.36,43.87,0,0;stroke-dashoffset:124.94;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
