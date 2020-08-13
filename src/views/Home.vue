@@ -24,13 +24,13 @@ export default {
 
 <style>
 .home {
-  display: flex;
+  display: grid;
+  min-height: 93vh;
+  grid-template-rows: auto 1fr auto;
+  /* display: flex;
   flex-direction: column;
-  height: 100vh;
-  overflow: hidden;
-  width: 100%;
+  min-height: 100vh;
+  width: 100%; */
   background-color: #f5efe7;
-  /* background-color: #214458; */
-  /* background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png"); */
 }
 </style>

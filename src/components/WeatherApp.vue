@@ -4,7 +4,7 @@
           <!-- search bar -->
           <div class="search-box">
               <div class="control is-medium" :class="{'is-loading': isLoading}">
-                  <input class="input is-rounded is-medium" type="text" placeholder="City..." v-model="query" @keyup.enter="fetchWeather(unitC)"/>
+                  <input class="input is-rounded" type="text" placeholder="City..." v-model="query" @keyup.enter="fetchWeather(unitC)"/>
               </div>
           </div>
           <!-- fetched information -->
@@ -92,30 +92,27 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 main {
-  padding: 0 5rem;
-  width: 1380px;
-  margin: 0 auto;
+  /* padding: 0 5rem; */
+  /* margin: 0 auto; */
 }
 .main-wrap {
-  /* background-color: #f8f3ed; */
-  /* background-color: #f6f3ec; */
-  /* border-radius: 30px; */
-  /* box-shadow: 3px 5px 10px 2px #444; */
-  display: grid;
-  padding: 3rem;
-  height: 75vh;
+  /* display: grid; */
+  /* padding: 3rem; */
+  /* height: 75vh; */
 }
 .search-box {
-  min-width: 400px;
-  max-width: 650px;
+  /* min-width: 400px;
+  max-width: 650px; */
   margin: 0 auto;
+  width: 220px;
 }
 .content-wrap {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 .error-wrap h1 {
-  font-size: 3rem;
+  font-size: 1.8rem;
   text-align: center;
+  padding-top: 2rem;
 }
 </style>

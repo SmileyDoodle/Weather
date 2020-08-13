@@ -86,7 +86,7 @@ export default {
 <style>
 .left-wrap {
   display: flex;
-  width: 45%;
+  /* width: 45%; */
 }
 .img-wrap {
   width: 100%;
@@ -94,13 +94,13 @@ export default {
   flex-direction: column;
 }
 .img-box {
-  height: 350px;
+  height: 200px;
 } 
 #weatherMain {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 1.8rem;
   text-align: center;
-  padding-top: 3.5rem;
+  padding-top: 2rem;
 }
 </style>

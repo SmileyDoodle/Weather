@@ -19,7 +19,7 @@ export default {
 @import '../node_modules/bulma/css/bulma.css';
 
 html {
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 body {
   font-family: 'Nunito', sans-serif;

@@ -4,16 +4,18 @@
         <h1 id="title"> {{ weather.name }} </h1>
         <div class=centering-wrap>
             <div class="temperature">
-                <div class="temperature-wrap">
-                <h1>{{ (weather.main.temp).toFixed(0) }}° </h1>
-                </div>
-                <div class="min-max-wrap">
-                <p>
-                    ↑ {{ (weather.main.temp_max).toFixed(0) }}°
-                </p>
-                <p>
-                    ↓ {{ (weather.main.temp_min).toFixed(0) }}°
-                </p>
+                <div class="temperature-left-wrap">
+                    <div class="temperature-wrap">
+                      <h1>{{ (weather.main.temp).toFixed(0) }}° </h1>
+                    </div>
+                    <div class="min-max-wrap">
+                      <p>
+                          ↑ {{ (weather.main.temp_max).toFixed(0) }}°
+                      </p>
+                      <p>
+                          ↓ {{ (weather.main.temp_min).toFixed(0) }}°
+                      </p>
+                    </div>
                 </div>
                 <div>
                     <button @click="$emit('unit-metric')" :class="{ selected: selectedUnit === unitC }" >°C</button>
@@ -24,12 +26,12 @@
             </div>
             <div class="information-wrap">
                 <div class="extra-data">
-                <p> Feels like: {{ (weather.main.feels_like).toFixed(0) }}° </p>
-                <p> Humidity:  {{ weather.main.humidity }}% </p>
+                  <p> Feels like: {{ (weather.main.feels_like).toFixed(0) }}° </p>
+                  <p> Humidity:  {{ weather.main.humidity }}% </p>
                 </div>
                 <div class="extra-data">
-                <p> Pressure: {{ weather.main.pressure }}hPa </p>
-                <p> Wind:  {{ weather.wind.speed }}{{ selectedUnit === unitC ? "m/s" : "mph" }}</p>
+                  <p> Pressure: {{ weather.main.pressure }}hPa </p>
+                  <p> Wind:  {{ weather.wind.speed }}{{ selectedUnit === unitC ? "m/s" : "mph" }}</p>
                 </div>
             </div>
         </div>
@@ -47,7 +49,7 @@ export default {
 <style>
 .right-wrap {
   display: flex;
-  width: 50%;
+  /* width: 50%; */
 }
 .weather-wrap {
   display: flex;
@@ -55,49 +57,57 @@ export default {
   text-align: center;
   align-items: center;
   margin: 0 auto;
-  min-width: 450px;
+  width: 100%;
+  /* min-width: 450px; */
 }
 #title {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 1.8rem;
   text-align: center;
-  padding-top: 3.5rem;
+  padding-top: 0.5rem;
   vertical-align: top;
 }
 .centering-wrap {
-  width: 80%;
+  width: 60%;
 }
 .temperature {
   display: flex;
-  justify-content: center;
-  padding-top: 3rem;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.temperature-left-wrap{
+  display: flex;
 }
 .information-wrap {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 1rem;
 }
 .temperature-wrap h1 {
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
-  font-size: 6rem;
+  font-size: 4rem;
 }
 .min-max-wrap p {
-  font-size: 1.5rem;
+  font-size: 0.7rem;
   padding-top: 1.3rem;
-  padding-left: 1rem;
-  padding-right: 1.2rem;
+  padding-left: 0.5rem;
+  /* padding-right: 1.2rem; */
+  text-align: left;
 }
 .extra-data {
   text-align: left;
-  padding-right: 1.2rem;
+  /* padding-right: 1.5rem; */
+}
+.extra-data p {
+  font-size: 0.7rem;
 }
 button {
   background-color: transparent;
   border: none;
-  padding-top: 1.6rem;
-  font-size: 1rem;
+  padding-top: 1.2rem;
+  font-size: 0.7rem;
   cursor: pointer;
 }
 .selected {

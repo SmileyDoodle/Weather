@@ -16,18 +16,18 @@ export default {
 <style>
 header {
   display: flex !important;
-  padding: 3rem 5rem 0;
+  padding: 2rem 5rem 1.5rem;
   justify-content: center;
 }
 .logo-icon {
   /* color: #f6f3ec; */
-  height: 38px;
+  height: 25px;
 }
 .logo {
   /* color: #fff; */
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  /* font-size: 1.2rem; */
   text-align: center;
 }
 </style>

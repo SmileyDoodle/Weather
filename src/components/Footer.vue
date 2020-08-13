@@ -13,8 +13,9 @@ export default {
 <style>
 footer {
   font-family: 'Nunito', sans-serif;
-  font-size: 200;
-  padding: 2rem 5rem;
+  font-weight: 200;
+  font-size: 0.7rem;
+  padding: 2rem 0 1rem;
   text-align: center;
   /* color: #f6f3ec; */
 }
