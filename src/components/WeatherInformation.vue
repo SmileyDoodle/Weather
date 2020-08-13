@@ -62,7 +62,7 @@ export default {
   font-weight: 400;
   font-size: 3rem;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 3.5rem;
   vertical-align: top;
 }
 .centering-wrap {
@@ -101,7 +101,7 @@ button {
   cursor: pointer;
 }
 .selected {
-  color: #fdaf1f;
+  color: #fbdc9b;
   font-weight: 700;
 }
 button:focus {

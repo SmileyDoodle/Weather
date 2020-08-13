@@ -29,7 +29,8 @@ export default {
   height: 100vh;
   overflow: hidden;
   width: 100%;
-  background-color: #214458;
-  background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
+  background-color: #f5efe7;
+  /* background-color: #214458; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png"); */
 }
 </style>

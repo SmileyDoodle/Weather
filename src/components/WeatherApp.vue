@@ -24,7 +24,10 @@
               @unit-metric="fetchWeather(unitC)"
               @unit-imperial="fetchWeather(unitF)"
             ></WeatherInformation>
-            <div v-if="error">{{error}}</div>
+            <!-- error message -->
+            <div class="error-wrap" v-if="error"> 
+              <h1> Error: {{error}} </h1>
+            </div>
           </div> 
         </div>
       </main>  
@@ -66,11 +69,11 @@ export default {
           .then(res => {
             return res.json();
           }).then(result => {
-            console.log('result ', result);
-            
+            // console.log('result ', result);
             if(result.cod === 200) {
               this.weather = result;
             } else {
+              this.weather = null;
               this.error = result.message;
             }
             this.isLoading = false;
@@ -94,9 +97,10 @@ main {
   margin: 0 auto;
 }
 .main-wrap {
-  background-color: #f6f3ec;
-  border-radius: 30px;
-  box-shadow: 3px 5px 10px 2px #444;
+  /* background-color: #f8f3ed; */
+  /* background-color: #f6f3ec; */
+  /* border-radius: 30px; */
+  /* box-shadow: 3px 5px 10px 2px #444; */
   display: grid;
   padding: 3rem;
   height: 75vh;
@@ -108,5 +112,10 @@ main {
 }
 .content-wrap {
   display: flex;
+  justify-content: center;
+}
+.error-wrap h1 {
+  font-size: 3rem;
+  text-align: center;
 }
 </style>

@@ -25,24 +25,48 @@ export default {
             this.currentIconID = this.iconID;
             }
             // console.log(iconID);
-            if (iconID === "01d" || iconID === "01n") {
-            this.image = "01.svg";
-            } else if (iconID === "02d" || iconID === "02n") {
-            this.image = "02.svg";
-            } else if (iconID === "03d" || iconID === "03n") {
-            this.image = "03.svg";
-            } else if (iconID === "04d" || iconID === "04n") {
-            this.image = "04.svg";
-            } else if (iconID === "09d" || iconID === "09n" || iconID === "10d" || iconID === "10n") {
-            this.image = "05.svg";
-            } else if (iconID === "11d" || iconID === "11n") {
-            this.image = "06.svg";
-            } else if (iconID === "13d" || iconID === "13n") {
-            this.image = "07.svg";
-            } else if (iconID === "50d" || iconID === "50n") {
-            this.image = "08.svg";
-            } else {
-            this.image = "03.svg";
+
+            switch (iconID) {
+              case "01d":
+                this.image = "01.svg";
+                break;
+              case "01n":
+                this.image = "01.2.svg";
+                break;
+              case "02d":
+                this.image = "02.svg";
+                break;
+              case "02n":
+                this.image = "02.2.svg";
+                break;
+              case "03d":
+              case "03n":
+                this.image = "03.svg";
+                break;
+              case "04d":
+              case "04n":
+                this.image = "04.svg";
+                break;
+              case "09d":
+              case "09n":
+              case "10d":
+              case "10n":
+                this.image = "05.svg";
+                break;
+              case "11d":
+              case "11n":
+                this.image = "06.svg";
+                break;
+              case "13d":
+              case "13n":
+                this.image = "07.svg";
+                break;
+              case "50d":
+              case "50n":
+                this.image = "08.svg";
+                break;
+              default:
+                this.image = "03.svg";
             }
         },
     },
@@ -77,6 +101,6 @@ export default {
   font-weight: 400;
   font-size: 3rem;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 3.5rem;
 }
 </style>
