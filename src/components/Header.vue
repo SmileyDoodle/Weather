@@ -20,14 +20,23 @@ header {
   justify-content: center;
 }
 .logo-icon {
-  /* color: #f6f3ec; */
   height: 25px;
 }
 .logo {
-  /* color: #fff; */
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  /* font-size: 1.2rem; */
   text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+.header {
+  padding: 3rem 5rem 0;
+}
+.logo-icon {
+  height: 38px;
+}
+.logo {
+  font-size: 1.5rem;
+}
 }
 </style>

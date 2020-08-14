@@ -27,10 +27,12 @@ export default {
   display: grid;
   min-height: 93vh;
   grid-template-rows: auto 1fr auto;
-  /* display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  width: 100%; */
   background-color: #f5efe7;
+}
+
+@media only screen and (min-width: 1024px) {
+.home {
+  min-height: 100vh;
+}
 }
 </style>

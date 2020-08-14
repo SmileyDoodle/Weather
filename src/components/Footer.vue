@@ -17,6 +17,12 @@ footer {
   font-size: 0.7rem;
   padding: 2rem 0 1rem;
   text-align: center;
-  /* color: #f6f3ec; */
+}
+
+@media only screen and (min-width: 1024px) {
+footer {
+  font-size: 1rem;
+  padding: 2rem 5rem;
+}
 }
 </style>

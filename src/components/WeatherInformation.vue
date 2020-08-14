@@ -20,8 +20,6 @@
                 <div>
                     <button @click="$emit('unit-metric')" :class="{ selected: selectedUnit === unitC }" >°C</button>
                     <button @click="$emit('unit-imperial')" :class="{ selected: selectedUnit === unitF }">°F</button>
-                    <!-- <button @click="fetchWeather(unitC)" :class="{ selected: selectedUnit === unitC }" >°C</button>
-                    <button @click="fetchWeather(unitF)" :class="{ selected: selectedUnit === unitF }">°F</button> -->
                 </div>
             </div>
             <div class="information-wrap">
@@ -116,5 +114,37 @@ button {
 }
 button:focus {
   outline: none;
+}
+
+@media only screen and (min-width: 1024px) {
+.right-wrap  {
+  width: 50%;
+}
+#title {
+  font-size: 3rem;
+  padding-top: 3.5rem;
+}
+.centering-wrap {
+  width: 70%;
+}
+.temperature {
+  padding-top: 3.3rem;
+}
+.temperature-wrap h1 {
+  font-size: 6rem;
+}
+.min-max-wrap p {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1.2rem;
+}
+.extra-data p {
+  font-size: 1.1rem;
+  padding-top: 0.2rem;
+}
+button {
+  padding-top: 1.6rem;
+  font-size: 1rem;
+}
 }
 </style>

@@ -91,28 +91,36 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-main {
-  /* padding: 0 5rem; */
-  /* margin: 0 auto; */
-}
-.main-wrap {
-  /* display: grid; */
-  /* padding: 3rem; */
-  /* height: 75vh; */
-}
 .search-box {
-  /* min-width: 400px;
-  max-width: 650px; */
   margin: 0 auto;
   width: 220px;
-}
-.content-wrap {
-  /* display: flex;
-  justify-content: center; */
 }
 .error-wrap h1 {
   font-size: 1.8rem;
   text-align: center;
   padding-top: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+main {
+  padding: 0 5rem;
+  margin: 0 auto;
+  width: 90%;
+}
+.main-wrap {
+  display: grid;
+  padding: 3rem;
+  height: 75vh;
+}
+.content-wrap {
+  display: flex;
+  justify-content: center;
+}
+.search-box {
+  width: 400px;
+}
+.error-wrap h1 {
+  font-size: 3rem;
+}
 }
 </style>

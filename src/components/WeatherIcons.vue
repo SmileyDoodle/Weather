@@ -86,7 +86,6 @@ export default {
 <style>
 .left-wrap {
   display: flex;
-  /* width: 45%; */
 }
 .img-wrap {
   width: 100%;
@@ -102,5 +101,18 @@ export default {
   font-size: 1.8rem;
   text-align: center;
   padding-top: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+.left-wrap  {
+  width: 45%;
+}
+.img-box {
+  height: 350px;
+}
+#weatherMain {
+  font-size: 3rem;
+  padding-top: 3.5rem;
+}
 }
 </style>
