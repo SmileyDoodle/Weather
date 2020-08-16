@@ -4,7 +4,14 @@
           <!-- search bar -->
           <div class="search-box">
               <div class="control is-medium" :class="{'is-loading': isLoading}">
-                  <input class="input is-rounded" type="text" placeholder="City..." v-model="query" @keyup.enter="fetchWeather(unitC)"/>
+                  <input 
+                    class="input is-rounded" 
+                    type="text" 
+                    placeholder="City..." 
+                    v-model="query" 
+                    @keyup.enter="fetchWeather(unitC)"
+                    ref="searchBar"
+                  />
               </div>
           </div>
           <!-- fetched information -->
@@ -78,6 +85,7 @@ export default {
             }
             this.isLoading = false;
             this.query = "";
+            this.$refs.searchBar.blur();
           }).catch((err) => {
             // console.log(err);
             this.isLoading = false;
@@ -85,7 +93,10 @@ export default {
             this.error = err;
           })
     },
-}
+  },
+  mounted() {
+    this.$refs.searchBar.focus();
+  }
 }
 </script>
 

@@ -47,7 +47,6 @@ export default {
 <style>
 .right-wrap {
   display: flex;
-  /* width: 50%; */
 }
 .weather-wrap {
   display: flex;
@@ -56,7 +55,6 @@ export default {
   align-items: center;
   margin: 0 auto;
   width: 100%;
-  /* min-width: 450px; */
 }
 #title {
   font-family: 'Nunito', sans-serif;
@@ -91,12 +89,10 @@ export default {
   font-size: 0.7rem;
   padding-top: 1.3rem;
   padding-left: 0.5rem;
-  /* padding-right: 1.2rem; */
   text-align: left;
 }
 .extra-data {
   text-align: left;
-  /* padding-right: 1.5rem; */
 }
 .extra-data p {
   font-size: 0.7rem;
@@ -107,10 +103,17 @@ button {
   padding-top: 1.2rem;
   font-size: 0.7rem;
   cursor: pointer;
+  opacity: 0.3;
+  transition: opacity ease 0.5s;
+}
+button:hover {
+  opacity: 1;
+  transition: opacity ease 0.5s;
 }
 .selected {
-  color: #fbdc9b;
+  color: #527690;
   font-weight: 700;
+  opacity: 1;
 }
 button:focus {
   outline: none;
